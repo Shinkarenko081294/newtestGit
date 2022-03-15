@@ -1,0 +1,78 @@
+.item{
+    display: flex;
+    position: relative;
+    padding: 3px;
+}
+.item:hover{
+    background-image: linear-gradient(0deg, #000 70%, #fff 100%);
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+.item:hover .btnGrup{
+    opacity: 1;
+}
+.item img{
+    width: 50px;
+    height: 70px;
+}
+.postText{
+    position: relative;
+    min-width: 100px;
+    width: auto;
+}
+.text{
+    padding-top: 5px;
+}
+.time{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    border-radius: 2px;
+    background-image: linear-gradient(0deg, #000 80%, #fff 100%);
+    box-shadow: 0px 0px 5px gray;
+}
+
+.btnGrup{
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+}
+
+.btnGrup img{
+    width: 30px;
+    height: 30px;
+}
+.likeGrup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.numberLikeTop{
+    position: relative;
+    bottom: 0%;
+    right: 0%;
+    height: 15px;
+    margin: 0%;
+    font-size: 10px;
+    text-align: center;
+}
+.numberLikeBott{
+    position: relative;
+    bottom: 0%;
+    right: 0%;
+    height: 15px;
+    margin: 0%;
+    font-size: 10px;
+    text-align: center;
+}
+.like{
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+.dlike{
+    background: none;
+    border: 0;
+    cursor: pointer;
+}

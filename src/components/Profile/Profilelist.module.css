@@ -1,0 +1,21 @@
+/* content Prifiles */
+.myProfiles {
+    grid-area: contentes;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(92, 92, 92);
+}
+.imgContent{
+    width: 90%;
+    height: 40%;
+    background-image: url(../../img/cart.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+  
+.myInfo{
+    width: 90%;
+    display: flex;
+  
+}
